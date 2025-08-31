@@ -1,6 +1,6 @@
 package repository
 
-import "github.com/yyueda/lion-heart/backend/internal/models"
+import "github.com/yyueda/lion-heart/backend/donation-service/internal/models"
 
 type DonationRepo interface {
 	Create(d *models.Donation) error

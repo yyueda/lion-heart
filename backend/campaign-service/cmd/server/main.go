@@ -9,7 +9,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/yyueda/lion-heart/backend/internal/router"
+	"github.com/yyueda/lion-heart/backend/campaign-service/internal/router"
 )
 
 func main() {

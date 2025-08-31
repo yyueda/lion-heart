@@ -1,6 +1,6 @@
 package repository
 
-import "github.com/yyueda/lion-heart/backend/internal/models"
+import "github.com/yyueda/lion-heart/backend/campaign-service/internal/models"
 
 type CampaignRepository interface {
 	Create(c *models.Campaign) error

@@ -1,6 +1,8 @@
 package repository
 
-import "github.com/yyueda/lion-heart/backend/internal/models"
+import (
+	"github.com/yyueda/lion-heart/backend/user-service/internal/models"
+)
 
 type UserRepository interface {
 	Create(user *models.User) error
