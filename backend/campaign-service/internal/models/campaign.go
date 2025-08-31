@@ -3,7 +3,7 @@ package models
 import "time"
 
 type Campaign struct {
-	ID           string
+	ID           int
 	CreatorID    string
 	Title        string
 	Description  string
