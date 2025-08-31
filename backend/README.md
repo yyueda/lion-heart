@@ -14,8 +14,8 @@ migrate -database "${DB_URL}?sslmode=require&x-migrations-table-quoted=true&x-mi
 migrate -database "${DB_URL}?sslmode=require&x-migrations-table-quoted=true&x-migrations-table=%22${MICROSERVICE}%22.%22schema_migrations%22" -path db/migrations down
 ```
 
-> **_NOTE:_** ${DB_URL} should be your database connection string. 
-> ${MICROSERVICE} is the schema (namespace) for your service, eg. donation_service, campaign_service etc.
+> **_NOTE:_** `${DB_URL}` should be your database connection string. 
+> `${MICROSERVICE}` is the schema (namespace) for your service, eg. donation_service, campaign_service etc.
 >
-> The x-migrations-table option scopes the migrations table to the microservice schema for development purposes.
+> The `x-migrations-table` option scopes the migrations table to the microservice schema for development purposes.
 > In production, each microservice should ideally have its own dedicated database for stronger isolation and maintainability.
