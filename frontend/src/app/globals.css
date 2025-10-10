@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+@theme {
+  --color-blackgrey: oklch(0.1953 0.0024 106.62);
+  --color-text-100: oklch(0.9814 0.0054 95.1);
+  --color-text-300: oklch(0.8087 0.0139 97.48);
+
+  --font-work-sans: var(--font-work-sans);
+}
