@@ -22,9 +22,9 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="sticky">
+    <nav className="sticky top-0 z-50 navbar flex items-center">
       <div className="flex items-center justify-between w-[calc(100%-2*clamp(2rem,1.43rem+2.86vw,4rem))] mx-auto max-w-[90rem]">
-        <div className="w-18 h-18 py-4 flex-shrink-0">
+        <div className="w-18 flex-shrink-0">
           <Link href="/">
             <LionHeartLogo
               classname="h-full w-full"

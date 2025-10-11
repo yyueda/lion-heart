@@ -126,3 +126,9 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer components {
+  .navbar {
+    height: 4rem;
+  }
+}
