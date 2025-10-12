@@ -9,7 +9,7 @@ import {
 
 export default function AppSidebar({ classname = "" }) {
   return (
-    <Sidebar variant="floating" className={cn("inset-auto", classname)}>
+    <Sidebar variant="floating" className={cn("inset-auto p-0", classname)}>
       <SidebarHeader />
       <SidebarContent>
         <SidebarGroup />

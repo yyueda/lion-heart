@@ -4,9 +4,10 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
-  --color-bg-200: oklch(0.2361 0.0024 67.71);
-  --color-sidebar-border: oklch(0.8935 0.0155 98.56);
+  --color-bg-100: oklch(0.2361 0.0024 67.71);
+  --color-border-100: oklch(0.8935 0.0155 98.56 / 15%);
   --color-blackgrey: oklch(0.1953 0.0024 106.62);
+
   --color-text-100: oklch(0.9814 0.0054 95.1);
   --color-text-300: oklch(0.8087 0.0139 97.48);
 

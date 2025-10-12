@@ -7,11 +7,9 @@ export default function EventsLayout({
   children: React.ReactNode;
 }>) {
     return (
-        <SidebarProvider className="gap-4">
+        <SidebarProvider className="gap-8">
             <AppSidebar />
-            <main>
-                {children}
-            </main>
+            {children}
         </SidebarProvider>
     );
 }
